@@ -30,7 +30,7 @@ html {
 
 @media only screen and (max-width: 760px) {
   .main-content {
-    top: 2.5625rem;
+    top: 3rem;
   }
 }
 
@@ -117,6 +117,13 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+}
+
+.banner {
+  background-image: url(../images/banner-landingpage.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -229,6 +236,12 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .image-container img {
+  width: 90%;
+  height: auto;
+  margin: 16px auto;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -241,6 +254,7 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 890px) {
@@ -265,6 +279,10 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .first-feature {
+    background-color: #9b9b9b;
   }
 }
 
@@ -298,6 +316,7 @@ header .mobile {
   padding: 0 1%;
 }
 
+
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -321,6 +340,18 @@ header .mobile {
 
   #filters-section .images-container {
     padding: 0;
+  }
+
+  #filters-section .image-container {
+    width: 32%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  #filters-section .image-container img {
+    width: 100%;
+    height: auto;
   }
 
   #filters-section .extra {
